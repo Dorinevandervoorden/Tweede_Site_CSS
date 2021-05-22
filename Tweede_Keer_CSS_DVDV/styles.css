@@ -1,0 +1,20 @@
+body{
+    font-size: 14px;
+    color: rgb(88, 95, 102);
+    background-color: rgb(228, 228, 225);
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    }
+.Header-A{color:olive}
+.Header-B{color:olivedrab}
+.Header-C{color:olivedrab}
+.Header-C{font-size: 20px}
+.BB{border: 5px solid black}
+.LL{font-style: italic;}
+.FF{font-size: 12px;}
+nav{text-align: left;}
+nav{font-style: italic;}
+nav{font-weight:bold;}
+nav{color: black;}
+nav{background-color: rgb(179, 179, 179);}
+.Header-A{font-family: 'Montserrat-SemiBold', sans-serif}
