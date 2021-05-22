@@ -1,20 +1,81 @@
 body{
+    font-family:'Montserrat', sans-serif
+}
+
+body{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(228, 228, 225);
+}
+header{
+    text-align:center;
+    background-color: rgb(78, 78, 78);
+    padding-top:5px;
+    padding-bottom:20px;
+    letter-spacing:0.1em;
+}
+
+.menu ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 5px; 
+    line-height: 1.2em;
+}
+
+.menu li{ 
+    display:inline-block
+}
+
+nav a{
+    padding: 20px;
+}
+
+main{
     font-size: 14px;
     color: rgb(88, 95, 102);
     background-color: rgb(228, 228, 225);
-    text-align: center;
     font-family:'Montserrat', sans-serif;
+    text-align: center;
+    padding-top:0px; 
+    padding-bottom:10px;
     }
+
+footer{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    background-color: rgb(78, 78, 78);
+    padding-bottom: 50px;
+    padding-top:20px
+}
+
+.Foto_Mickey{
+    object-fit: cover;
+    margin:0, auto;
+}
+
+.LL{
+    padding-left: 1000px;
+    padding-right: 1000px;
+    margin: auto;
+    text-align:center;
+}
+
+a:hover{color: gold;}
+a{text-decoration: none;}
+a{color:rgb(128, 150, 33)}
+.menu a{color:white;}
 .Header-A{color:olive}
 .Header-B{color:olivedrab}
+.Header-B{font-family:'Montserrat-SemiBold', sans-serif;}
 .Header-C{color:olivedrab}
+.Header-C{font-family:'Montserrat', sans-serif;}
 .Header-C{font-size: 20px}
+.Header-C{font-variant:small-caps;}
 .BB{border: 5px solid black}
 .LL{font-style: italic;}
 .FF{font-size: 12px;}
-nav{text-align: left;}
-nav{font-style: italic;}
-nav{font-weight:bold;}
-nav{color: black;}
-nav{background-color: rgb(179, 179, 179);}
-.Header-A{font-family: 'Montserrat-SemiBold', sans-serif}
+.FF{color:white;}
+.FF{letter-spacing:0.3em;}
+.Header-A{font-family: 'Montserrat-SemiBold', sans-serif;}

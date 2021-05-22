@@ -2,45 +2,62 @@
 <html>
 
 <head>
-    <title>HTML oefening 2</title>
+    <title>Mijn eigen website</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
     <header>
         <h1 class="Header-A">Mijn eerste eigen, zelf gemaakte, website</h1>
-        <h2 class="Header-B">Menu</h2>
-        <nav class="BB">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li>Coming Soon</li>
-            </ul>
-        </nav>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Coming_Soon.html">Coming Soon</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
+        <section class="Foto_Mickey">
+            <img width="50%" src="IMG/_1SF2340.jpg">
+        </section>
+
         <section>
             <h1 class="Header-C">Home</h1>
-            <p>Vandaag is het 16 mei 2021. De tweede opdracht over HTML. Deze opdracht gaat over 3 dingen:
+            <p>Welkom op mijn eerste eigen, zelf gemaakte website. Op deze website vind je onder andere:
             <ol class="LL">
                 <li>links</li>
                 <li>afbeeldingen</li>
-                <li>lists</li>
+                <li>een contactformulier</li>
             </ol>
             </p>
         </section>
-        <Section>
+
+        <section>
             <h2 class="Header-C">About Me</h2>
-            <p>In deze alinea plaats ik een link naar de About Me pagina. Op de About Me pagina vind je informatie over
+            <p>In deze alinea plaats ik een link naar de About Me pagina. Op de About Me pagina vind je informatie
+                over
                 - hoe kan het ook anders - mij!
                 De About Me pagina vind je <a href="About.html">hier</a>.
-        </Section>
-        <hr>
-        </hr>
-        <footer class="FF">
-            <h2>Copyright D. van der Voorden 2021</h2>
-        </footer>
+            </p>
+        </section>
+
+        <section class="CS">
+            <h2 class="Header-C">Coming Soon</h2>
+            <p>Deze verschijnt soooonn.
+                De pagina vind je <a href="Coming_Soon.html">hier</a>.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="FF">
+        <h2>Copyright D. van der Voorden 2021</h2>
+    </footer>
 </body>
 
 </html>
